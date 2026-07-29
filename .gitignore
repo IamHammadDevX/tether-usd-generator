@@ -1,0 +1,46 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Node / npm (OpenZeppelin dependencies for Solidity compilation) ──
+node_modules/
+package-lock.json
+
+# ── Solidity compiler cache (py-solc-x) ─────────────────────────────
+.csolcx/
+
+# ── Build artifacts ─────────────────────────────────────────────────
+/build/
+
+# ─️ Token / QR code images ──────────────────────────────────────────
+token_add_qr.png
+*qr*.png
+
+# ── Exported wallets (sensitive!) ───────────────────────────────────
+wallet_*.json
+
+# ── Network config (may contain RPC keys) ───────────────────────────
+config/networks.json
+
+# ── IDE / Editor ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.runtime/
